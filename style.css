@@ -1,0 +1,60 @@
+#outBoard{
+  width: 600px;
+  height: 600px;
+  position: relative;
+  top: 30px;
+  left: 25%;
+  background-color: red;
+}
+#board {
+  width: 315px;
+  height: 315px;
+  position: relative;
+  top: 14%;
+  left: 0%;
+  background-color: red;
+  margin: 0 auto;
+}
+
+/*.box:hover {
+  background-color: white ;
+}
+*/
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 1px;
+  border: 0px solid black;
+  background-color: black;
+  display: inline-block;
+  margin-bottom: 4px;
+  border-radius: 100px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 65px;
+  font-family: 'Cedarville Cursive', cursive;
+  color: white;
+    
+}
+  
+#playersTurn {
+ text-align: center;
+ font-weight: bold;
+ font-size: 2.1em;
+ height: 10px;
+}
+
+.button {
+  color: black;
+  font: bold 12px Helvetica, Arial, sans-serif;
+  padding: 14px 24px;
+  position: relative;
+  display: inline-block;
+  text-shadow: 0 0px 0 #fff;
+  background: white;
+  border: solid 1px #dcdcdc;
+  border-radius: 0px;
+  margin-right: 10px;
+  left: 458px;
+  top: 180px;
+}
